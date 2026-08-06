@@ -1,0 +1,12 @@
+/* AppShell.css */
+.appshell {
+  display: flex;
+  min-height: 100vh;
+}
+
+.appshell-main {
+  flex: 1;
+  min-width: 0;
+  overflow-y: auto;
+  background: radial-gradient(ellipse at 80% 0%, #0c1628 0%, #080e1a 60%);
+}

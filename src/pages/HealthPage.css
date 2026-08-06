@@ -1,0 +1,256 @@
+/* HealthPage.css — scoped styles for the Phase 1 health screen */
+
+/* ── Root layout ── */
+.health-root {
+  min-height: 100vh;
+  background: radial-gradient(ellipse at 20% 10%, #0f1a2e 0%, #080e1a 70%);
+  color: #e2e8f0;
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem 4rem;
+}
+
+/* ── Header ── */
+.health-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.health-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.health-logo-icon {
+  font-size: 2.4rem;
+  background: linear-gradient(135deg, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 0 12px rgba(56, 189, 248, 0.4));
+}
+
+.health-logo-text {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  background: linear-gradient(135deg, #e2e8f0, #94a3b8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.health-subtitle {
+  font-size: 0.95rem;
+  color: #64748b;
+  letter-spacing: 0.02em;
+}
+
+/* ── Main content ── */
+.health-main {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* ── Generic card ── */
+.health-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  padding: 1.75rem 2rem;
+  backdrop-filter: blur(12px);
+  transition: border-color 0.2s;
+}
+
+/* ── Loading state ── */
+.health-loading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #64748b;
+}
+
+.health-spinner {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 3px solid rgba(56, 189, 248, 0.2);
+  border-top-color: #38bdf8;
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ── Error state ── */
+.health-error {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  border-color: rgba(239, 68, 68, 0.3);
+}
+
+.health-error h2 { margin: 0 0 0.25rem; font-size: 1.1rem; color: #fca5a5; }
+.health-error-msg { color: #f87171; margin: 0 0 0.5rem; font-size: 0.9rem; }
+.health-hint { color: #64748b; font-size: 0.85rem; margin: 0; }
+.health-hint code {
+  background: rgba(255,255,255,0.07);
+  padding: 0.15em 0.4em;
+  border-radius: 0.3em;
+  font-size: 0.82rem;
+}
+
+/* ── Status banner ── */
+.health-status-banner {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.health-banner-ok {
+  border-color: rgba(34, 197, 94, 0.35);
+  background: rgba(34, 197, 94, 0.07);
+}
+
+.health-banner-warn {
+  border-color: rgba(234, 179, 8, 0.35);
+  background: rgba(234, 179, 8, 0.07);
+}
+
+.health-banner-text h2 {
+  margin: 0 0 0.2rem;
+  font-size: 1.15rem;
+}
+
+.health-banner-text p {
+  margin: 0;
+  font-size: 0.88rem;
+  color: #94a3b8;
+}
+
+.health-status-label {
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.health-banner-ok .health-status-label { color: #4ade80; }
+.health-banner-warn .health-status-label { color: #facc15; }
+
+/* ── Animated status dot ── */
+.health-status-dot {
+  display: inline-block;
+  flex-shrink: 0;
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 50%;
+}
+
+.health-dot-ok {
+  background: #4ade80;
+  box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.6);
+  animation: pulse-ok 2s ease-in-out infinite;
+}
+
+.health-dot-warn {
+  background: #facc15;
+  box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.6);
+  animation: pulse-warn 2s ease-in-out infinite;
+}
+
+.health-dot-error {
+  background: #f87171;
+}
+
+@keyframes pulse-ok {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.6); }
+  50%       { box-shadow: 0 0 0 7px rgba(74, 222, 128, 0); }
+}
+
+@keyframes pulse-warn {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.6); }
+  50%       { box-shadow: 0 0 0 7px rgba(250, 204, 21, 0); }
+}
+
+/* ── Table counts section ── */
+.health-tables-section {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+}
+
+.health-section-title {
+  margin: 0 0 1.25rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #475569;
+}
+
+/* ── Grid of tiles ── */
+.health-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.75rem;
+}
+
+.health-tile {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.75rem;
+  padding: 1rem 0.75rem;
+  text-align: center;
+  transition: background 0.2s, border-color 0.2s, transform 0.15s;
+  cursor: default;
+}
+
+.health-tile:hover {
+  background: rgba(56, 189, 248, 0.08);
+  border-color: rgba(56, 189, 248, 0.3);
+  transform: translateY(-2px);
+}
+
+.health-tile-count {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.2;
+}
+
+.health-tile-label {
+  display: block;
+  margin-top: 0.3rem;
+  font-size: 0.75rem;
+  color: #64748b;
+  letter-spacing: 0.02em;
+}
+
+/* ── Footer disclaimer ── */
+.health-footer {
+  margin-top: 3rem;
+  max-width: 800px;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.health-footer p {
+  margin: 0;
+  font-size: 0.75rem;
+  color: #334155;
+  line-height: 1.6;
+}
