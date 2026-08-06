@@ -1,0 +1,31 @@
+sku_id,public_product_id,sku_name,category,pack_size,variant_status,default_shelf_life_days,unit_cost_vnd,source_status
+SKU001,PUB001,UHT Fresh Milk Green Farm No Sugar - Single Unit,Fresh Milk,180ml,synthetic_demo_variant,180,9000,public_product_name_plus_synthetic_operational_fields
+SKU002,PUB001,UHT Fresh Milk Green Farm No Sugar - Case Pack,Fresh Milk,48 units,synthetic_demo_variant,270,6000,public_product_name_plus_synthetic_operational_fields
+SKU003,PUB002,Green Farm Low-Sugar Sterilized Fresh Milk - Single Unit,Fresh Milk,180ml,synthetic_demo_variant,270,14000,public_product_name_plus_synthetic_operational_fields
+SKU004,PUB002,Green Farm Low-Sugar Sterilized Fresh Milk - Case Pack,Fresh Milk,48 units,synthetic_demo_variant,270,7500,public_product_name_plus_synthetic_operational_fields
+SKU005,PUB003,Vinamilk Nutritional Milk No Sugar - Single Unit,Nutritional Milk,180ml,synthetic_demo_variant,270,6500,public_product_name_plus_synthetic_operational_fields
+SKU006,PUB003,Vinamilk Nutritional Milk No Sugar - Case Pack,Nutritional Milk,48 units,synthetic_demo_variant,180,15000,public_product_name_plus_synthetic_operational_fields
+SKU007,PUB004,UHT Fresh Milk 100% Low-Fat Banana Flavor - Single Unit,Fresh Milk,180ml,synthetic_demo_variant,180,8500,public_product_name_plus_synthetic_operational_fields
+SKU008,PUB004,UHT Fresh Milk 100% Low-Fat Banana Flavor - Case Pack,Fresh Milk,48 units,synthetic_demo_variant,180,14500,public_product_name_plus_synthetic_operational_fields
+SKU009,PUB005,UHT Fresh Milk 100% Low Sugar - Single Unit,Fresh Milk,220ml,synthetic_demo_variant,120,17500,public_product_name_plus_synthetic_operational_fields
+SKU010,PUB005,UHT Fresh Milk 100% Low Sugar - Case Pack,Fresh Milk,48 units,synthetic_demo_variant,120,16000,public_product_name_plus_synthetic_operational_fields
+SKU011,PUB006,Vinamilk High-Protein Nut Milk No Sugar - Single Unit,Nut Milk,180ml,synthetic_demo_variant,120,11000,public_product_name_plus_synthetic_operational_fields
+SKU012,PUB006,Vinamilk High-Protein Nut Milk No Sugar - Case Pack,Nut Milk,48 units,synthetic_demo_variant,180,13500,public_product_name_plus_synthetic_operational_fields
+SKU013,PUB007,UHT Fresh Milk 100% Corn Flavor - Single Unit,Fresh Milk,180ml,synthetic_demo_variant,120,7500,public_product_name_plus_synthetic_operational_fields
+SKU014,PUB007,UHT Fresh Milk 100% Corn Flavor - Case Pack,Fresh Milk,48 units,synthetic_demo_variant,270,11000,public_product_name_plus_synthetic_operational_fields
+SKU015,PUB008,Vinamilk Soy Milk with Fresh Milk Low Sugar - Single Unit,Soy Milk,180ml,synthetic_demo_variant,180,8500,public_product_name_plus_synthetic_operational_fields
+SKU016,PUB008,Vinamilk Soy Milk with Fresh Milk Low Sugar - Case Pack,Soy Milk,48 units,synthetic_demo_variant,270,18000,public_product_name_plus_synthetic_operational_fields
+SKU017,PUB009,UHT Fresh Milk 100% No Sugar - Single Unit,Fresh Milk,180ml,synthetic_demo_variant,180,12500,public_product_name_plus_synthetic_operational_fields
+SKU018,PUB009,UHT Fresh Milk 100% No Sugar - Case Pack,Fresh Milk,48 units,synthetic_demo_variant,120,17500,public_product_name_plus_synthetic_operational_fields
+SKU019,PUB010,UHT Fresh Milk 100% Melon Flavor - Single Unit,Fresh Milk,180ml,synthetic_demo_variant,180,10000,public_product_name_plus_synthetic_operational_fields
+SKU020,PUB010,UHT Fresh Milk 100% Melon Flavor - Case Pack,Fresh Milk,48 units,synthetic_demo_variant,270,15000,public_product_name_plus_synthetic_operational_fields
+SKU021,PUB011,Optimum A2 Pro+ Ready-to-Drink Formula - Single Unit,Ready-to-Drink Formula,180ml,synthetic_demo_variant,180,6000,public_product_name_plus_synthetic_operational_fields
+SKU022,PUB011,Optimum A2 Pro+ Ready-to-Drink Formula - Case Pack,Ready-to-Drink Formula,48 units,synthetic_demo_variant,270,13500,public_product_name_plus_synthetic_operational_fields
+SKU023,PUB012,Vinamilk Nutritional Milk Sweetened - Single Unit,Nutritional Milk,180ml,synthetic_demo_variant,270,15000,public_product_name_plus_synthetic_operational_fields
+SKU024,PUB012,Vinamilk Nutritional Milk Sweetened - Case Pack,Nutritional Milk,48 units,synthetic_demo_variant,120,11000,public_product_name_plus_synthetic_operational_fields
+SKU025,PUB013,Moc Chau Creamery UHT Fresh Milk Low Sugar - Single Unit,Fresh Milk,180ml,synthetic_demo_variant,120,6000,public_product_name_plus_synthetic_operational_fields
+SKU026,PUB013,Moc Chau Creamery UHT Fresh Milk Low Sugar - Case Pack,Fresh Milk,48 units,synthetic_demo_variant,180,8000,public_product_name_plus_synthetic_operational_fields
+SKU027,PUB014,Green Farm High-Protein Low-Fat Lactose-Free Milk - Single Unit,Fresh Milk,180ml,synthetic_demo_variant,180,9500,public_product_name_plus_synthetic_operational_fields
+SKU028,PUB014,Green Farm High-Protein Low-Fat Lactose-Free Milk - Case Pack,Fresh Milk,48 units,synthetic_demo_variant,270,12000,public_product_name_plus_synthetic_operational_fields
+SKU029,PUB015,UHT Fresh Milk 100% Low-Fat Chocolate - Single Unit,Fresh Milk,180ml,synthetic_demo_variant,120,11000,public_product_name_plus_synthetic_operational_fields
+SKU030,PUB015,UHT Fresh Milk 100% Low-Fat Chocolate - Case Pack,Fresh Milk,48 units,synthetic_demo_variant,120,14500,public_product_name_plus_synthetic_operational_fields

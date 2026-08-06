@@ -1,0 +1,6 @@
+user_id,username,demo_password,role
+USR01,warehouse.staff,Demo@123,Warehouse Staff
+USR02,warehouse.manager,Demo@123,Warehouse Manager
+USR03,planner,Demo@123,Planner
+USR04,quality.manager,Demo@123,Quality Manager
+USR05,branch.manager,Demo@123,Branch Manager

@@ -1,0 +1,4 @@
+location_id,location_name,location_type,data_status
+LOC01,TVB Pilot Finished-Goods Warehouse,warehouse,synthetic
+LOC02,Representative Outlet Group A,outlet_group,synthetic
+LOC03,Representative Outlet Group B,outlet_group,synthetic

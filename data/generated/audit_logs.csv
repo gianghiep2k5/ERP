@@ -1,0 +1,25 @@
+audit_id,recommendation_id,actor_username,action,before_status,after_status,comment,action_timestamp,data_status
+AUD0001,REC0001,warehouse.manager,APPROVED,PENDING,APPROVED,Scenario-based prototype decision.,2026-08-05T15:20:00,synthetic
+AUD0003,REC0003,warehouse.manager,REJECTED,PENDING,REJECTED,Scenario-based prototype decision.,2026-08-05T13:20:00,synthetic
+AUD0005,REC0005,warehouse.manager,APPROVED,PENDING,APPROVED,Scenario-based prototype decision.,2026-08-05T11:20:00,synthetic
+AUD0006,REC0006,warehouse.manager,REJECTED,PENDING,REJECTED,Scenario-based prototype decision.,2026-08-05T10:20:00,synthetic
+AUD0007,REC0007,warehouse.manager,REJECTED,PENDING,REJECTED,Scenario-based prototype decision.,2026-08-05T09:20:00,synthetic
+AUD0008,REC0008,warehouse.manager,APPROVED,PENDING,APPROVED,Scenario-based prototype decision.,2026-08-05T08:20:00,synthetic
+AUD0009,REC0009,warehouse.manager,REJECTED,PENDING,REJECTED,Scenario-based prototype decision.,2026-08-05T07:20:00,synthetic
+AUD0010,REC0010,warehouse.manager,APPROVED,PENDING,APPROVED,Scenario-based prototype decision.,2026-08-05T06:20:00,synthetic
+AUD0013,REC0013,warehouse.manager,APPROVED,PENDING,APPROVED,Scenario-based prototype decision.,2026-08-05T03:20:00,synthetic
+AUD0016,REC0016,warehouse.manager,REJECTED,PENDING,REJECTED,Scenario-based prototype decision.,2026-08-05T00:20:00,synthetic
+AUD0017,REC0017,warehouse.manager,REJECTED,PENDING,REJECTED,Scenario-based prototype decision.,2026-08-04T23:20:00,synthetic
+AUD0019,REC0019,warehouse.manager,REJECTED,PENDING,REJECTED,Scenario-based prototype decision.,2026-08-04T21:20:00,synthetic
+AUD0020,REC0020,warehouse.manager,APPROVED,PENDING,APPROVED,Scenario-based prototype decision.,2026-08-04T20:20:00,synthetic
+AUD0021,REC0021,warehouse.manager,APPROVED,PENDING,APPROVED,Scenario-based prototype decision.,2026-08-04T19:20:00,synthetic
+AUD0022,REC0022,warehouse.manager,APPROVED,PENDING,APPROVED,Scenario-based prototype decision.,2026-08-04T18:20:00,synthetic
+AUD0023,REC0023,warehouse.manager,APPROVED,PENDING,APPROVED,Scenario-based prototype decision.,2026-08-04T17:20:00,synthetic
+AUD0024,REC0024,warehouse.manager,REJECTED,PENDING,REJECTED,Scenario-based prototype decision.,2026-08-04T16:20:00,synthetic
+AUD0025,REC0025,warehouse.manager,REJECTED,PENDING,REJECTED,Scenario-based prototype decision.,2026-08-04T15:20:00,synthetic
+AUD0028,REC0028,warehouse.manager,REJECTED,PENDING,REJECTED,Scenario-based prototype decision.,2026-08-04T12:20:00,synthetic
+AUD0030,REC0030,warehouse.manager,APPROVED,PENDING,APPROVED,Scenario-based prototype decision.,2026-08-04T10:20:00,synthetic
+AUD0031,REC0031,warehouse.manager,APPROVED,PENDING,APPROVED,Scenario-based prototype decision.,2026-08-04T09:20:00,synthetic
+AUD0036,REC0036,warehouse.manager,APPROVED,PENDING,APPROVED,Scenario-based prototype decision.,2026-08-04T04:20:00,synthetic
+AUD0037,REC0037,warehouse.manager,REJECTED,PENDING,REJECTED,Scenario-based prototype decision.,2026-08-04T03:20:00,synthetic
+AUD0038,REC0038,warehouse.manager,APPROVED,PENDING,APPROVED,Scenario-based prototype decision.,2026-08-04T02:20:00,synthetic

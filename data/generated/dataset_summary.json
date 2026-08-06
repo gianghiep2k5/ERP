@@ -1,0 +1,13 @@
+{
+  "public_products": 15,
+  "skus": 30,
+  "locations": 3,
+  "users": 5,
+  "lots": 120,
+  "inventory_balances": 120,
+  "sales_history": 10950,
+  "forecast_metrics": 30,
+  "forecast_results": 900,
+  "recommendations": 40,
+  "audit_logs": 24
+}
